@@ -41,7 +41,16 @@ while True:
 
     if choice == "1":
         title = input("Enter task title: ")
-        add_task(tasks, title)
+
+        priority = input("Enter priority (Low/Medium/High): ")
+        priority = priority.capitalize()
+
+        while priority not in ["Low", "Medium", "High"]:
+            print("Invalid priority.")
+            priority = input("Enter priority (Low/Medium/High): ")
+            priority = priority.capitalize()
+
+        add_task(tasks, title, priority)
         print("Task added.")
 
     elif choice == "2":
