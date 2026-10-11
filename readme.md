@@ -143,8 +143,7 @@ Add your screenshots to the `pictures/` folder.
 
 Place a GIF demonstrating the application in the `gifs/` folder.
 
-![Project Demo](demo.gif)
-
+![Project Demo](./gifs/demo.gif)
 ## Roadmap
 
 - [x] Create the basic task manager
