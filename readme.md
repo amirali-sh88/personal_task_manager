@@ -143,7 +143,7 @@ Add your screenshots to the `pictures/` folder.
 
 Place a GIF demonstrating the application in the `gifs/` folder.
 
-![Project Demo](gifs/demo.gif)
+![Project Demo](demo.gif)
 
 ## Roadmap
 
